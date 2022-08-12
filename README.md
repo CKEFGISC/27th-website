@@ -5,3 +5,8 @@
 
 ## 社網架構
 ![image](resource/images/社網架構.png)
+
+## 編輯規則
+* commit message請使用有意義文具
+* 建立branch，不可直接commit到main
+* pul request 好好寫
