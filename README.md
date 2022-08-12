@@ -4,4 +4,4 @@
 網頁架設負責：北資一三學術長 蘇怡恩 @gracesu307   <br>
 
 ## 社網架構
-![image](resource/images/社網架構.png)
+![image](images/社網架構.png)
