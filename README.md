@@ -13,6 +13,6 @@
 * pull request 好好寫
 
 ## 檔案結構
-各分頁.html請放在/(root)中
-子分頁請放對應的資料夾
-js, css, images請整理到相對應資料夾中
+各分頁.html請放在/(root)中 <br>
+子分頁請放對應的資料夾 <br>
+js, css, images請整理到相對應資料夾中 <br>
