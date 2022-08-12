@@ -1,1 +1,1 @@
-this is a folder for .css files
+This is a folder for css stlye files.
