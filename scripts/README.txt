@@ -1,1 +1,1 @@
-this is a folder for .js files
+This is a folder for JavaScript files.
