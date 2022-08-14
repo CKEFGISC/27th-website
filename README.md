@@ -9,7 +9,8 @@
 ![image](images/社網架構.png)
 ## 編輯規則
 * commit message請使用有意義文句
-* 建立branch，除了建立架構之外，不可直接commit到main
+* 請遵守git flow, 詳請看此[文章](https://ithelp.ithome.com.tw/articles/10227605)
+* 要修改時請fork develop branch 到自己帳號，除了建立架構之外，不可直接commit到main
 * pull request 好好寫
 
 ## 檔案結構
