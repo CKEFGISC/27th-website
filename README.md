@@ -4,37 +4,37 @@
 網頁架設負責：北資一三學術長 蘇怡恩 @gracesu307   <br>
 
 ## 社網架構
-.
-├── ./common/
-│   ├── ./common/header.html
-│   └── ./common/footer.html
-├── ./styles/
-│   └── ./styles/something.css
-├── ./scripts/
-│   └── ./scripts/something.js
-│ 
-│  <!-- html files -->
-│ 
-├── ./index.html
-├── ./news.html
-├── ./about.html
-├── ./about/
-│   └── ./about/history.html
-├── ./lesson.html/
-│   ├── ./lesson.html/algo.html
-│   ├── ./lesson.html/python.html
-│   ├── ./lesson.html/web.html
-│   ├── ./lesson.html/math.html
-│   └── ./lesson.html/projectConstruction.html
-├── ./event.html
-├── ./event/
-│   ├── ./event/spring.html
-│   ├── ./event/summer.html
-│   ├── ./event/autumn.html
-│   ├── ./event/winter.html
-│   ├── ./event/exhibit.html
-│   └── ./event/tea.html
-└── ./schedule.html
+.  <br>
+├── ./common/ <br>
+│   ├── ./common/header.html <br>
+│   └── ./common/footer.html <br>
+├── ./styles/ <br>
+│   └── ./styles/something.css <br>
+├── ./scripts/ <br>
+│   └── ./scripts/something.js <br>
+│  <br>
+│  <!-- html files --> <br>
+│  <br>
+├── ./index.html <br>
+├── ./news.html <br>
+├── ./about.html <br>
+├── ./about/ <br>
+│   └── ./about/history.html <br>
+├── ./lesson.html/ <br>
+│   ├── ./lesson.html/algo.html <br>
+│   ├── ./lesson.html/python.html <br>
+│   ├── ./lesson.html/web.html <br>
+│   ├── ./lesson.html/math.html <br>
+│   └── ./lesson.html/projectConstruction.html <br>
+├── ./event.html <br>
+├── ./event/ <br>
+│   ├── ./event/spring.html <br>
+│   ├── ./event/summer.html <br>
+│   ├── ./event/autumn.html <br>
+│   ├── ./event/winter.html <br>
+│   ├── ./event/exhibit.html <br>
+│   └── ./event/tea.html <br>
+└── ./schedule.html <br>
 
 ![image](images/社網架構.png)
 ## 編輯規則
