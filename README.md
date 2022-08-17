@@ -6,7 +6,7 @@
 ## 社網架構
 
 <img width="473" alt="image" src="https://user-images.githubusercontent.com/99801904/185097983-3223b5ef-7e0e-4927-b018-ef9589d262e0.png">
-[edit](
+![edit](
 https://tree.nathanfriend.io/?s=(%27opti5s!(%27fancy2~fullPath2~trailASlash2~rootDot2)~6(%276%27comm57headBfooter*style3css0script3js70index*news887history*less54algo4pyth54web4math4projectC5structi5997sprA4summBautumn4wintBexhibit4tea*schedule*%27)~versi5!%271%27)*.html7%20%200%5Cn2!true3s7somethA.4*-5on6source!70-8*about9*eventAingBer4%01BA987654320-*)
 │  <br>
 
