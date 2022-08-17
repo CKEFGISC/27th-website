@@ -6,10 +6,13 @@
 ## 社網架構
 
 <img width="473" alt="image" src="https://user-images.githubusercontent.com/99801904/185097983-3223b5ef-7e0e-4927-b018-ef9589d262e0.png">
+
 [edit link](https://bit.ly/3QFXPzs) 
+
 ps. please change link after edit
 
 ![image](images/社網架構.png)
+
 ## 編輯規則
 * commit message請使用有意義文句
 * 請遵守git flow, 詳請看此[文章](https://ithelp.ithome.com.tw/articles/10227605)
