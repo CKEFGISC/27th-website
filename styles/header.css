@@ -1,34 +1,32 @@
 body {
   margin: 0;
+  background-color: var(--soft-white);
 }
 
 header {
-  background-color: #203864;
+  padding: 0 10vw 0 10vw;
 }
 
 #navigation {
   list-style-type: none;
   text-align: right;
   margin: 0;
-  padding: 0;
 }
 
 #navigation li {
-  display: inline-block;
-  padding: 20px 5px 20px 5px;
+  display: inline;
 }
 
 #navigation li a {
-  font-family: "微軟正黑體", "Microsoft Jhenghei", sans-serif;
+  display: inline-block;
+  padding: 3vh 1.5vw;
+  font-family: "Noto Sans TC", "微軟正黑體", "Microsoft Jhenghei", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color: #fff;
-  padding: 5px 20px 5px 20px;
-  border-radius: 8px;
+  color: var(--dark-brown);
   text-decoration: none;
 }
 
 #navigation li a:hover {
-  color: #203864;
-  background-color: #fff;
+  background-color: var(--light-brown);
 }
