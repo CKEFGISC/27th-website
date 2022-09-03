@@ -27,8 +27,8 @@ CSS links除了有styles裡面需要共用的CSS，<br>
 `scripts`下面的`include.js`用來把`common`裡面的HTML都加進頁面裡，<br>
 因為用了jQuery，所以要用時請在`<head>`裡面加上這兩行：
 ```html
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-  <script src="/scripts/include.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="/scripts/include.js"></script>
 ```
 並將`<body>`如下安排：
 ```html
