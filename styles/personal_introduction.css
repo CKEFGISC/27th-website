@@ -81,9 +81,9 @@ html, body {
   width: 17vw;
   margin-left: 3vw;
   padding-right: 2vw;
-  line-height: 3vw;
+  line-height: 2.8vw;
   display: inline-block;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
 }
 
 .pic_name {
