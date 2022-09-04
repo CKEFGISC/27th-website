@@ -55,6 +55,10 @@ html, body {
   padding: 0;
   border: solid 1vw #AA9D81;
   border-radius: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1vw;
 }
 
 .name {
@@ -81,13 +85,13 @@ html, body {
   width: 17vw;
   margin-left: 3vw;
   padding-right: 2vw;
-  line-height: 3vw;
+  line-height: 2.8vw;
   display: inline-block;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
 }
 
 .pic_name {
-  display: inline-block;
+  width: 14vw;
 }
 
 .no {
