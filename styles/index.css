@@ -1,0 +1,25 @@
+#title-section {
+  padding: 10vh 15vw;
+  background-image: url("/images/placeholder.png");
+}
+
+#title-section h1 {
+  color: var(--soft-white);
+  font-size: 15vh;
+  line-height: 8vh;
+}
+
+#title-section h2 {
+  color: var(--dark-brown);
+  margin-bottom: 5vh;
+}
+
+#title-section a {
+  padding: 2vh 2vw;
+  color: var(--soft-white);
+  background-color: var(--contrast-blue);
+  border-radius: 1vw;
+  font-size: 3vh;
+  font-weight: 700;
+  text-decoration: none;
+}
