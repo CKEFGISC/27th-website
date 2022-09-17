@@ -33,6 +33,7 @@ header {
   font-size: 20px;
   color: var(--dark-brown);
   text-decoration: none;
+  transition: 0.3s;
 }
 
 #navigation li a:hover {
