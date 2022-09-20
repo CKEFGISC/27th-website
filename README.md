@@ -18,7 +18,7 @@
 js, css, images請整理到相對應資料夾中 <br>
 
 `styles`下面有header跟footer的CSS，<br>
-以及一個`colors.css`用來放顏色的變數<br>
+以及全體共用的`global.css`<br>
 
 `common`下面有header、footer以及共用的CSS links，<br>
 CSS links除了有styles裡面需要共用的CSS，<br>

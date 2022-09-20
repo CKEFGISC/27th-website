@@ -1,0 +1,9 @@
+body {
+  --soft-white: #f5f3f0;
+  --light-brown: #aa9d81;
+  --dark-brown: #473b30;
+  --contrast-blue: #2b4471;
+  margin: 0;
+  background-color: var(--soft-white);
+  font-family: "Noto Sans TC", "微軟正黑體", "Microsoft Jhenghei", sans-serif;
+}
