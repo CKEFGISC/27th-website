@@ -10,7 +10,15 @@ footer a {
   color: var(--soft-white);
 }
 
-footer th {
+footer td {
   padding-right: 1vw;
+}
+
+#copyright {
+  text-align: center;
+}
+
+#copyright p {
+  line-height: 1vh;
 }
 
