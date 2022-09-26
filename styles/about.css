@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 140px;
+  background-color: #AA9D81;
+  text-align: center;
+  line-height: 140px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.title {
+  margin-left: 1vw;
+  font-size: 2.3vw;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.content {
+  margin-left: 14vw;
+  font-size: 1.5vw;
+  margin-right: 8vw;
+  line-height: 3vw;
+}
+
+i{
+  font-size: 2.3vw;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  display: block;
+}
+
+li{
+  margin-left: 13vw;
+  font-size: 2vw;
+  margin-top: 1vw;
+}
+
+img{
+  width: 14vw;
+  margin-top: 1vw;
+  margin-left: 15vw;
+}
+
+.mark{
+  display: inline-block;
+  margin-left: 1vw;
+  width: 58vw;
+}
