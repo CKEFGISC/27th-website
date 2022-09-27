@@ -1,0 +1,101 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F5F4F0;
+}
+
+.top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 15vw;
+  background-color: #AA9D81;
+  text-align: center;
+  line-height: 15vw;
+  font-size: 4vw;
+  color: #fff;
+}
+
+i{
+  display: inline-block;
+  width: 3vw;
+  font-size: 2.5vw;
+  margin-left: 10vw;
+  margin-top: 3vw;
+}
+
+.title{
+  display: inline-block;
+  font-size: 2.5vw;
+  margin-left: 1vw;
+  margin-top: 2vw;
+}
+
+
+.ppt{
+  width: 78vw;
+  margin-left: 13vw;
+  margin-top: 1vw;
+}
+
+.num{
+  width: 10vw;
+  margin: auto;
+  margin-top: 1vw;
+  text-align: center;
+  height: 2.5vw;
+  line-height: 2.5vw;
+  border-radius: 3vw;
+  background-color: #C9C9C5;
+  display: inline-block;
+}
+
+.content{
+  width: 50vw;
+  margin: auto;
+  text-align: left;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  line-height: 2vw;
+  display: inline-block;
+}
+
+label{
+  display: inline-block;
+  cursor: pointer;
+}
+
+img{
+  width: 27vw;
+  height: 18vw;
+  margin: 0;
+  border-radius: 10px;
+  padding: 0;
+  border: solid 1vw #AA9D81;
+  border-radius: 20px;
+  display: block;
+  margin-left: 13vw;
+  margin-top: 2vw;
+}
+
+iframe{
+  margin: 0;
+  width: 33vw;
+  margin-top: 1vw;
+}
+
+.down{
+  text-align: center;
+  width: 10vw;
+  margin-top: 1vw;
+}
+
+.slides{
+  width: 33vw;
+  overflow: hidden;
+  height: 0;
+  transition: 1s;
+}
