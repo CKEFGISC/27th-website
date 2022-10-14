@@ -1,17 +1,25 @@
+.section {
+  margin-bottom: 10vh;
+}
+
 #title-section {
   padding: 10vh 15vw;
   background-image: url("/images/LINE_ALBUM_221013_0.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #title-section h1 {
   color: var(--soft-white);
   font-size: 15vh;
   line-height: 8vh;
+  text-shadow: 0 0 20px black;
 }
 
 #title-section h2 {
-  color: var(--dark-brown);
+  color: #fec;
   margin-bottom: 5vh;
+  text-shadow: 0 0 20px black;
 }
 
 #title-section a {
@@ -24,12 +32,8 @@
   text-decoration: none;
 }
 
-#lesson-section {
-  margin-bottom: 15vh;
-}
-
 .section-title {
-  margin: 10vh 43vw;
+  margin: 0 43vw 5vh 43vw;
   background-color: var(--light-brown);
   transform: skewX(-45deg);
 }
@@ -80,4 +84,20 @@
   background-image: url("/images/placeholder.png");
 }
 
+#faq-section ul {
+  margin: 0 15vw;
+}
+
+#faq-section ul li {
+  font-size: 3vh;
+  font-weight: 700;
+  color: var(--dark-brown);
+  border-bottom: 5px solid var(--light-brown);
+  padding: 3vh 0;
+  list-style-type: none;
+}
+
+#faq-section ul li p {
+  margin: 1vh;
+}
 
