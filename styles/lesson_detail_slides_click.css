@@ -18,7 +18,7 @@ html, body {
   color: #fff;
 }
 
-i{
+.icon{
   display: inline-block;
   width: 3vw;
   font-size: 2.5vw;
@@ -34,34 +34,34 @@ i{
 }
 
 
-.ppt{
-  width: 78vw;
-  margin-left: 13vw;
+.dt{  
+  width: 100vw;
+  padding-left: 17vw;
+  padding-bottom: 0.7vw;
   margin-top: 1vw;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.dt:hover{
+  background-color: #E8E8E3;
 }
 
 .num{
   width: 10vw;
-  margin: auto;
+  margin-left: 1vw;
   margin-top: 1vw;
+  margin-right: 0.7vw;
   text-align: center;
   height: 2.5vw;
   line-height: 2.5vw;
   border-radius: 3vw;
   background-color: #C9C9C5;
   display: inline-block;
+  font-size: 1.4vw;
 }
 
-.content{
-  width: 50vw;
-  margin: auto;
-  text-align: left;
-  margin-left: 1vw;
-  margin-top: 1vw;
-  font-size: 1.3vw;
-  line-height: 2vw;
-  display: inline-block;
-}
+
 
 .lab{
   display: inline-block;
@@ -99,3 +99,4 @@ i{
   height: 0;
   transition: 1s;
 }
+
