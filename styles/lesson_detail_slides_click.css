@@ -63,12 +63,12 @@ i{
   display: inline-block;
 }
 
-label{
+.lab{
   display: inline-block;
   cursor: pointer;
 }
 
-img{
+.image{
   width: 27vw;
   height: 18vw;
   margin: 0;
@@ -81,7 +81,7 @@ img{
   margin-top: 2vw;
 }
 
-iframe{
+.ifr{
   margin: 0;
   width: 33vw;
   margin-top: 1vw;
