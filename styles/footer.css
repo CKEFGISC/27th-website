@@ -3,6 +3,7 @@ footer {
   background-color: var(--light-brown);
   color: var(--soft-white);
   font-weight: 700;
+  font-size: 2vh;
   text-align: left;
 }
 
