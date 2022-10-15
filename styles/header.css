@@ -1,26 +1,34 @@
-body {
-  margin: 0;
-  background-color: var(--soft-white);
+header {
+  padding: 0 15vw;
+  height: 10vh;
 }
 
-header {
-  padding: 0 10vw 0 10vw;
+#logo {
+  display: inline-flex;
+  height: inherit;
+  align-items: center;
+}
+
+#logo img {
+  height: 70%;
 }
 
 #navigation {
-  list-style-type: none;
-  text-align: right;
+  float: right;
+  height: inherit;
   margin: 0;
 }
 
 #navigation li {
   display: inline;
+  height: inherit;
 }
 
 #navigation li a {
-  display: inline-block;
-  padding: 3vh 1.5vw;
-  font-family: "Noto Sans TC", "微軟正黑體", "Microsoft Jhenghei", sans-serif;
+  display: inline-flex;
+  height: inherit;
+  align-items: center;
+  padding: 0 3vh;
   font-weight: bold;
   font-size: 20px;
   color: var(--dark-brown);
@@ -29,5 +37,6 @@ header {
 }
 
 #navigation li a:hover {
+  color: var(--soft-white);
   background-color: var(--light-brown);
 }

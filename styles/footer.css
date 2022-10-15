@@ -1,0 +1,24 @@
+footer {
+  padding: 5vh 15vw;
+  background-color: var(--light-brown);
+  color: var(--soft-white);
+  font-weight: 700;
+  text-align: left;
+}
+
+footer a {
+  color: var(--soft-white);
+}
+
+footer td {
+  padding-right: 1vw;
+}
+
+#copyright {
+  text-align: center;
+}
+
+#copyright p {
+  line-height: 1vh;
+}
+

@@ -1,0 +1,83 @@
+#title-section {
+  padding: 10vh 15vw;
+  background-image: url("/images/LINE_ALBUM_221013_0.jpg");
+}
+
+#title-section h1 {
+  color: var(--soft-white);
+  font-size: 15vh;
+  line-height: 8vh;
+}
+
+#title-section h2 {
+  color: var(--dark-brown);
+  margin-bottom: 5vh;
+}
+
+#title-section a {
+  padding: 2vh 2vw;
+  color: var(--soft-white);
+  background-color: var(--contrast-blue);
+  border-radius: 1vw;
+  font-size: 3vh;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#lesson-section {
+  margin-bottom: 15vh;
+}
+
+.section-title {
+  margin: 10vh 43vw;
+  background-color: var(--light-brown);
+  transform: skewX(-45deg);
+}
+
+.section-title p {
+  color: var(--soft-white);
+  text-align: center;
+  font-size: 4vh;
+  font-weight: 700;
+  transform: skewX(45deg);
+}
+
+#lesson-links {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+#lesson-links td {
+  width: 50%;
+  height: 30vh;
+}
+
+#lesson-links a {
+  color: var(--soft-white);
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 5vh;
+  font-weight: 700;
+  transition: font-size 0.5s;
+}
+
+#lesson-links a:hover {
+  font-size: 6vh;
+}
+
+#major-lesson {
+  background-image: url("/images/placeholder.png");
+}
+
+#noon-lesson {
+  background-image: url("/images/placeholder.png");
+}
+
+#after-lesson {
+  background-image: url("/images/placeholder.png");
+}
+
+
