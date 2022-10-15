@@ -1,9 +1,9 @@
 footer {
-  padding: 5vh 15vw;
+  padding: 3vw 15vw;
   background-color: var(--light-brown);
   color: var(--soft-white);
   font-weight: 700;
-  font-size: 2vh;
+  font-size: 1vw;
   text-align: left;
 }
 
@@ -20,6 +20,6 @@ footer td {
 }
 
 #copyright p {
-  line-height: 1vh;
+  line-height: 0.5vw;
 }
 

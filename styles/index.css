@@ -1,9 +1,9 @@
 .section {
-  margin-bottom: 10vh;
+  margin-bottom: 5vw;
 }
 
 #title-section {
-  padding: 10vh 15vw;
+  padding: 5vw 15vw;
   background-image: url("/images/LINE_ALBUM_221013_0.jpg");
   background-size: cover;
   background-position: center;
@@ -11,29 +11,30 @@
 
 #title-section h1 {
   color: var(--soft-white);
-  font-size: 15vh;
-  line-height: 8vh;
-  text-shadow: 0 0 20px black;
+  font-size: 8vw;
+  line-height: 4vw;
+  text-shadow: 0 0 1vw black;
 }
 
 #title-section h2 {
   color: #fec;
-  margin-bottom: 5vh;
-  text-shadow: 0 0 20px black;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+  text-shadow: 0 0 1vw black;
 }
 
 #title-section a {
-  padding: 2vh 2vw;
+  padding: 1vw 2vw;
   color: var(--soft-white);
   background-color: var(--contrast-blue);
   border-radius: 1vw;
-  font-size: 3vh;
+  font-size: 1.5vw;
   font-weight: 700;
   text-decoration: none;
 }
 
 .section-title {
-  margin: 0 43vw 5vh 43vw;
+  margin: 0 43vw 3vw 43vw;
   background-color: var(--light-brown);
   transform: skewX(-45deg);
 }
@@ -41,7 +42,7 @@
 .section-title p {
   color: var(--soft-white);
   text-align: center;
-  font-size: 4vh;
+  font-size: 2vw;
   font-weight: 700;
   transform: skewX(45deg);
 }
@@ -53,7 +54,7 @@
 
 #lesson-links td {
   width: 50%;
-  height: 30vh;
+  height: 16vw;
 }
 
 #lesson-links a {
@@ -63,13 +64,13 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 5vh;
+  font-size: 2.5vw;
   font-weight: 700;
   transition: font-size 0.5s;
 }
 
 #lesson-links a:hover {
-  font-size: 6vh;
+  font-size: 3vw;
 }
 
 #major-lesson {
@@ -86,18 +87,19 @@
 
 #faq-section ul {
   margin: 0 15vw;
+  padding: 0;
 }
 
 #faq-section ul li {
-  font-size: 3vh;
+  font-size: 1.5vw;
   font-weight: 700;
   color: var(--dark-brown);
   border-bottom: 5px solid var(--light-brown);
-  padding: 3vh 0;
+  padding: 1.5vw 0;
   list-style-type: none;
 }
 
 #faq-section ul li p {
-  margin: 1vh;
+  margin: 0.5vw;
 }
 
