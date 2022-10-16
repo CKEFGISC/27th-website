@@ -20,9 +20,9 @@ html, body {
 .title {
   margin-left: 1vw;
   font-size: 2.3vw;
-  font-weight: normal;
   display: inline-block;
 }
+
 
 .content {
   margin-left: 14vw;
@@ -35,7 +35,7 @@ html, body {
   font-size: 2.3vw;
   margin-left: 10vw;
   margin-top: 5vw;
-  display: block;
+  display: inline-block;
 }
 
 .ti1{
@@ -48,10 +48,29 @@ html, body {
   width: 14vw;
   margin-top: 1vw;
   margin-left: 15vw;
+  display: inline-block;
 }
 
 .mark{
   display: inline-block;
   margin-left: 1vw;
-  width: 58vw;
+  width: 50vw;
+  font-size: 1.5vw;
+  margin-right: 8vw;
+  line-height: 3vw;
+}
+
+@media only screen and (max-width: 800px){
+  .image{
+    width: 50vw;
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+  }
+  .mark{
+    width: 58vw;
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+  }
 }
