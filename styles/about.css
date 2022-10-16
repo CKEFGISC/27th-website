@@ -31,20 +31,20 @@ html, body {
   line-height: 3vw;
 }
 
-i{
+.icon{
   font-size: 2.3vw;
   margin-left: 10vw;
   margin-top: 5vw;
   display: block;
 }
 
-li{
+.ti1{
   margin-left: 13vw;
   font-size: 2vw;
   margin-top: 1vw;
 }
 
-img{
+.image{
   width: 14vw;
   margin-top: 1vw;
   margin-left: 15vw;
