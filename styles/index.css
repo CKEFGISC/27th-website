@@ -103,3 +103,23 @@
   margin: 0.5vw;
 }
 
+.btn{
+  background-color: #AA9D81;
+  width: 15vw;
+  height: 4vw;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 4vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover{
+  width: 16vw;
+  height: 4.2vw;
+  line-height: 4.2vw;
+}
+.btn_a{
+  color: white;
+  text-decoration:none;
+}
+
