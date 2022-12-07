@@ -58,7 +58,11 @@ html, body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 1vw;
+  margin-top: 2vw;
+}
+
+.pic_name{
+  padding-top: 2.5vw;
 }
 
 .name {
@@ -85,7 +89,7 @@ html, body {
   width: 21vw;
   margin-left: 3vw;
   padding-right: 2vw;
-  line-height: 2.4vw;
+  line-height: 2vw;
   display: inline-block;
   font-size: 1.2vw;
   text-align: justify;
