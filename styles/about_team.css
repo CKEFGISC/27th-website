@@ -82,12 +82,12 @@ html, body {
 }
 
 .intro {
-  width: 17vw;
+  width: 20vw;
   margin-left: 3vw;
   padding-right: 2vw;
-  line-height: 2.8vw;
+  line-height: 2.5vw;
   display: inline-block;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   text-align: justify;
 }
 
