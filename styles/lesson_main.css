@@ -40,7 +40,7 @@ i {
   margin-top: 2vw;
   line-height: 4vw;
   padding-left: 2vw;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
 }
 
 .two_class {
@@ -93,12 +93,12 @@ i {
 
 .intro {
   display: inline-block;
-  width: 30vw;
-  line-height: 4vw;
+  width: 33vw;
+  line-height: 3vw;
   margin-top: 2vw;
   text-align: justify;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.6vw;
+  font-size: 1.3vw;
 }
