@@ -115,11 +115,21 @@
 }
 .btn:hover{
   width: 16vw;
-  height: 4.2vw;
-  line-height: 4.2vw;
 }
 .btn_a{
   color: white;
   text-decoration:none;
+}
+.qq{
+  border-radius: 8px;
+  padding: 0.5vw;
+  background-color: #C9C9C5;
+  width: fit-content;
+}
+.aa{
+  border-radius: 8px;
+  padding: 0.5vw;
+  background-color: #E3E3DE;
+  width: fit-content;
 }
 
