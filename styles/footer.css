@@ -1,5 +1,6 @@
 footer {
   padding: 3vw 15vw;
+  margin-top: 5vw;
   background-color: var(--light-brown);
   color: var(--soft-white);
   font-weight: 700;
