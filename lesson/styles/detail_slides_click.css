@@ -6,6 +6,14 @@ html, body {
   background-color: #F5F4F0;
 }
 
+.content {
+  margin-left: 14vw;
+  font-size: 1.5vw;
+  margin-right: 8vw;
+  margin-top: 3vw;
+  line-height: 3vw;
+}
+
 .top {
   margin: 0;
   padding: 0;
@@ -60,8 +68,6 @@ html, body {
   display: inline-block;
   font-size: 1.4vw;
 }
-
-
 
 .lab{
   display: inline-block;
