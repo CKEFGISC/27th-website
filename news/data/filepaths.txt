@@ -1,0 +1,2 @@
+/news/posts/aaa.html
+/news/posts/bbb.html
