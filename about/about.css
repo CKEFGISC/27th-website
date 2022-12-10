@@ -83,6 +83,11 @@ html, body {
   text-decoration:none;
 }
 
+.ct{
+  display: flex;
+  align-items: flex-start;
+}
+
 @media only screen and (max-width: 800px){
   .image{
     width: 50vw;
