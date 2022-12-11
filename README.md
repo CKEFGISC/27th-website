@@ -42,9 +42,9 @@ CSS links除了有styles裡面需要共用的CSS，<br>
 
 ```
 
-##公告系統
+## 公告系統
 以`.txt`檔撰寫公告，存放於`/news/posts`底下
-###檔案格式
+### 檔案格式
 第一行為日期`YYYY-MM-DD`
 第二行為標題
 第三行及以下為公告內容
@@ -55,7 +55,7 @@ CSS links除了有styles裡面需要共用的CSS，<br>
 本公告乃為測試公告系統是否正常運作
 以及提供做為演示用途的範例
 ```
-###HTML生成
+### HTML生成
 使用`gennews`來生成 HTML 網頁：
 ```
 ./gennews test
