@@ -85,12 +85,12 @@
   background-image: url("/images/placeholder.png");
 }
 
-#faq-section ul {
+.line-list {
   margin: 0 15vw;
   padding: 0;
 }
 
-#faq-section ul li {
+.line-list li {
   font-size: 1.5vw;
   font-weight: 700;
   color: var(--dark-brown);
@@ -99,7 +99,7 @@
   list-style-type: none;
 }
 
-#faq-section ul li p {
+.line-list li p {
   margin: 0.5vw;
 }
 
