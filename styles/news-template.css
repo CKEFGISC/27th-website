@@ -1,0 +1,37 @@
+.section {
+  margin: 5vw 0;
+}
+
+.section-title {
+  margin: 0 43vw 3vw 43vw;
+  background-color: var(--light-brown);
+  transform: skewX(-45deg);
+}
+
+.section-title p {
+  color: var(--soft-white);
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 700;
+  transform: skewX(45deg);
+}
+
+
+#news-post {
+  margin: 0 20vw;
+  padding: 3vw;
+  background-color: white;
+  box-shadow: 0 5px 10px 5px #999;
+}
+
+#news-title {
+  color: var(--dark-brown);
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+#news-content {
+  color: var(--dark-brown);
+  font-size: 1.2vw;
+}
+
