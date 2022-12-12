@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="/scripts/include.js"></script>
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="about/site.css">
+  <script src="/scripts/news.js"></script>
+  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="stylesheet" href="/about/site.css">
   <title></title>
 </head>
 <body>
@@ -19,7 +20,10 @@
       <a href="#">點我地社</a>
     </div>
     <div id="news-section" class="section">
-      <!--Todo: add content-->
+      <div class="section-title">
+        <p>最新消息</p>
+      </div>
+      <ul id="news-list" class="line-list"></ul>
     </div>
     <div id="lesson-section" class="section">
       <div class="section-title">
@@ -41,7 +45,7 @@
       <div class="section-title">
         <p>常見問答</p>
       </div>
-      <ul>
+      <ul class="line-list">
         <li>
           <p class="qq">Q：小社是星期幾？</p>
           <br>
@@ -75,10 +79,12 @@
       <div class="sec">
         <div class="title">製作團隊</div>
         <div class="text">專案管理：建電42nd吳亞倫<br>網站架設：北資36th蘇怡恩、建電42nd蔡政廷</div>
-      </div>  
+      </div>
     </div>
-  
   </div>
   <footer></footer>
+  <script>
+    listNews(4);
+  </script>
 </body>
 </html>
