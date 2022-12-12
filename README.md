@@ -6,33 +6,67 @@
 ## 社網架構
 ```
 .
-├── ./common/
-│   ├── ./common/header.html
-│   └── ./common/footer.html
-├── ./styles/
-│   └── ./styles/something.css
-├── ./scripts/
-│   └── ./scripts/something.js
-├── ./index.html
-├── ./news.html
-├── ./about.html
-├── ./about/
-│   └── ./about/history.html
-├── ./lesson.html/
-│   ├── ./lesson.html/algo.html
-│   ├── ./lesson.html/python.html
-│   ├── ./lesson.html/web.html
-│   ├── ./lesson.html/math.html
-│   └── ./lesson.html/projectConstruction.html
-├── ./event.html
-├── ./event/
-│   ├── ./event/spring.html
-│   ├── ./event/summer.html
-│   ├── ./event/autumn.html
-│   ├── ./event/winter.html
-│   ├── ./event/exhibit.html
-│   └── ./event/tea.html
-└── ./schedule.html
+├── LICENSE.txt
+├── README.md
+├── UnderConstruction.html
+├── about
+│   ├── about.css
+│   ├── index.html
+│   ├── site.css
+│   ├── site.html
+│   ├── team.css
+│   └── team.html
+├── common
+│   ├── csslinks.html
+│   ├── footer.html
+│   └── header.html
+├── event
+│   ├── event.css
+│   └── index.html
+├── gennews (shell script)
+├── images
+├── included license
+│   └── underConstructionPageLICENSE.txt
+├── index.html
+├── lesson
+│   ├── algo.html
+│   ├── fgisc_python.html
+│   ├── fgisc_web.html
+│   ├── index.html
+│   ├── math.html
+│   ├── project.html
+│   ├── python.html
+│   ├── scripts
+│   │   └── detail_slides_click.js
+│   ├── styles
+│   │   ├── detail.css
+│   │   ├── detail_slides.css
+│   │   ├── detail_slides_click.css
+│   │   └── lesson.css
+│   ├── template
+│   │   ├── detail.html
+│   │   ├── detail_slides.html
+│   │   └── detail_slides_click.html
+│   └── web.html
+├── news
+│   ├── data
+│   │   └── filepaths.txt
+│   ├── index.html
+│   ├── posts
+│   │   ├── test.html
+│   │   ├── test.txt
+│   └── template.html
+├── schedule
+├── scripts
+│   ├── include.js
+│   └── news.js
+└── styles
+    ├── UnderConstruction.css
+    ├── footer.css
+    ├── global.css
+    ├── header.css
+    ├── index.css
+    └── news-template.css
 ```
 
 ![image](images/社網架構.png)
