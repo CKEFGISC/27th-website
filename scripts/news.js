@@ -22,7 +22,7 @@ function listNews(num) {
         let lines = post.split('\n');
         let date = lines[0];
         let title = lines[1];
-        $('#news-list').append(`<li>${date} <a href=${url}>${title}</a></li>`)
+        $('#news-list').append(`<li>${date} <a href=${url} class="a_news">${title}</a></li>`)
       });
     }
   });

@@ -133,3 +133,10 @@
   width: fit-content;
 }
 
+
+.a_news{
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  margin-left: 1vw;
+  letter-spacing: 1px;
+}
