@@ -105,7 +105,8 @@
 
 .btn{
   background-color: #AA9D81;
-  width: 15vw;
+  padding: 0.1vw 1.2vw;
+  width: fit-content;
   height: 4vw;
   border-radius: 15px;
   text-align: center;
@@ -119,6 +120,7 @@
 .btn_a{
   color: white;
   text-decoration:none;
+  font-size: 1.5vw;
 }
 .qq{
   border-radius: 8px;
@@ -136,7 +138,19 @@
 
 .a_news{
   color: rgba(0, 0, 0, 0.7);
-  font-size: 20px;
   margin-left: 1vw;
   letter-spacing: 1px;
+}
+@media screen and (max-width: 800px){
+  .btn{
+    background-color: #AA9D81;
+    padding: 0.5vw 3vw;
+    width: fit-content;
+    border-radius: 8px;
+  }
+  .qq{
+    background-color: #C9C9C5;
+    padding: 0.5vw 2vw;
+    border-radius: 8px;
+  }
 }
