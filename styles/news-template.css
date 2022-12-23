@@ -22,6 +22,7 @@
   padding: 3vw;
   background-color: white;
   box-shadow: 0 5px 10px 5px #999;
+  border-radius: 10px;
 }
 
 #news-title {

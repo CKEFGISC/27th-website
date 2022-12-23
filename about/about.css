@@ -101,4 +101,7 @@ html, body {
     margin: auto;
     margin-top: 4vw;
   }
+  .title{
+    font-size: 4vw;
+  }
 }
