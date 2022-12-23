@@ -54,7 +54,7 @@
 
 #lesson-links td {
   width: 50%;
-  height: 16vw;
+  height: 20vw;
 }
 
 #lesson-links a {
@@ -64,6 +64,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  text-shadow: 0 0 20px black;
   font-size: 2.5vw;
   font-weight: 700;
   transition: font-size 0.5s;
@@ -74,7 +75,10 @@
 }
 
 #major-lesson {
-  background-image: url("/images/placeholder.png");
+  background-image: url("/images/ckeisc_main.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
 }
 
 #noon-lesson {
@@ -82,7 +86,9 @@
 }
 
 #after-lesson {
-  background-image: url("/images/placeholder.png");
+  background-image: url("/images/ckefgisc_unite.jpg");
+  background-size: cover;
+  filter: grayscale(50%);
 }
 
 .line-list {
