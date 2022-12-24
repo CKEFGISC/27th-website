@@ -49,8 +49,8 @@ html, body {
 }
 
 .pic {
-  width: 25vw;
-  height: 16vw;
+  width: 24vw;
+  height: 18vw;
   margin: 0;
   border-radius: 10px;
   padding: 0;
@@ -63,8 +63,8 @@ html, body {
   transition: 0.4s;
 }
 .pic:hover {
-  width: 25.5vw;
-  height: 16.4vw;
+  width: 24.8vw;
+  height: 18.6vw;
 }
 
 .name {
