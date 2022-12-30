@@ -74,16 +74,10 @@ html, body {
 }
 
 .image{
-  width: 28vw;
-  height: 21vw;
-  margin: 0;
-  border-radius: 10px;
+  height: 15vw;
+  margin: 0.5vw;
   padding: 0;
-  border: solid 1vw #AA9D81;
-  border-radius: 20px;
-  display: block;
-  margin-left: 13vw;
-  margin-top: 2vw;
+  display: inline;
 }
 
 .ifr{
@@ -103,5 +97,11 @@ html, body {
   overflow: hidden;
   height: 0;
   transition: 1s;
+}
+.img_c{
+  margin-left: 13vw;
+  margin-top: 2vw;
+  width: 80vw;
+  text-align: center;
 }
 
