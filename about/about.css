@@ -90,7 +90,7 @@ html, body {
 
 @media only screen and (max-width: 800px){
   .image{
-    width: 50vw;
+    width: 30vw;
     display: block;
     margin: auto;
     margin-top: 4vw;
