@@ -128,7 +128,7 @@ iframe{
 .ebimg{
   height: 15vw;
   display: block;
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 .eb{
@@ -138,4 +138,8 @@ iframe{
 .eba{
   color: black;
   margin: auto;
+}
+
+#eb6{
+  margin-left: 15vw;
 }
