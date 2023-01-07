@@ -104,4 +104,42 @@ html, body {
   width: 80vw;
   text-align: center;
 }
+.p{
+  margin-left: 13vw;
+  font-size: 1.3vw;
+  line-height: 30px;
+}
 
+iframe{
+  width: 40vw;
+  height: 30vw;
+  frameborder: 0;
+}
+.onepeo{
+  margin: 2vw 10vw;
+  display: inline-block;
+  width: 20vw;
+}
+.per{
+  margin: 1vw 2vw;
+  font-size: 2vw;
+}
+
+.ebimg{
+  height: 15vw;
+  display: block;
+  margin-top: 1vw;
+}
+
+.eb{
+  margin-left: 10vw;
+}
+
+.eba{
+  color: black;
+  margin: auto;
+}
+
+#eb6{
+  margin-left: 15vw;
+}
