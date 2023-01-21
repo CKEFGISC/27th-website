@@ -20,7 +20,7 @@ html, body {
 
 .title {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 5vw;
 }
 
@@ -44,6 +44,7 @@ html, body {
 
 .onep {
   display: flex;
+  justify-content: center;
 }
 
 .pic {
@@ -101,4 +102,41 @@ html, body {
 
 .no {
   opacity: 0;
+}
+
+@media only screen and (max-width: 800px){
+  .twop{
+    display: block;
+  }
+  .pic{
+    width: 30vw;
+    height: 30vw;
+  }
+  .intro{
+    width: 30vw;
+    line-height: 4vw;
+    margin-left: 10vw;
+  }
+  .name{
+    line-height: 6vw;
+    padding: 0;
+    width: 30vw;
+    height: 6vw;
+    margin: auto;
+    margin-bottom: 1vw;
+    border-radius: 3vw;
+  }
+  .onep{
+    margin-top: 6vw;
+  }
+  .club{
+    line-height: 6vw;
+    width: 30vw;
+    height: 6vw;
+    margin: auto;
+    margin-top: 2vw;
+  }
+  .title{
+    display: block;
+  }
 }
