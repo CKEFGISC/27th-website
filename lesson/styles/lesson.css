@@ -53,10 +53,6 @@ i {
   padding-bottom: 5vw;
 }
 
-.one_class {
-  display: inline-block;
-}
-
 .pic {
   width: 28vw;
   height: 21vw;
@@ -101,4 +97,26 @@ i {
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 800px){
+  .two_class{
+    display: block;
+  }
+  .pic{
+    width: 60vw;
+    height: 45vw;
+  }
+  .name{
+    width: 30vw;
+    height: 7vw;
+    line-height: 7vw;
+  }
+  .intro{
+    line-height: 4vw;
+    width: 60vw;
+  }
+  .one_class{
+    margin-top: 10vw;
+  }
 }
