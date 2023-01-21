@@ -20,7 +20,7 @@ html, body {
 
 .title {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 5vw;
 }
 
