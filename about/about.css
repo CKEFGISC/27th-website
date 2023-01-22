@@ -18,21 +18,21 @@ html, body {
 }
 
 .title {
-  margin-left: 1vw;
-  font-size: 2.3vw;
+  margin-left: 7px;
+  font-size: 28px;
   display: inline-block;
 }
 
-
 .content {
-  margin-left: 14vw;
-  font-size: 1.5vw;
-  margin-right: 8vw;
-  line-height: 3vw;
+  margin: auto;
+  width: 65vw;
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 10px;
 }
 
 .icon{
-  font-size: 2.3vw;
+  font-size: 28px;
   margin-left: 10vw;
   margin-top: 5vw;
   display: inline-block;
@@ -40,7 +40,7 @@ html, body {
 
 .ti1{
   margin-left: 13vw;
-  font-size: 2vw;
+  font-size: 22px;
   margin-top: 1vw;
 }
 
@@ -55,9 +55,9 @@ html, body {
   display: inline-block;
   margin-left: 1vw;
   width: 50vw;
-  font-size: 1.5vw;
+  font-size: 17px;
   margin-right: 8vw;
-  line-height: 3vw;
+  line-height: 30px;
 }
 
 .btn{
@@ -101,7 +101,7 @@ html, body {
     margin: auto;
     margin-top: 4vw;
   }
-  .title{
-    font-size: 4vw;
+  .ct{
+    display: block;
   }
 }
