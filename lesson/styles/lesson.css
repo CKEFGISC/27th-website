@@ -25,22 +25,13 @@ html, body {
 }
 
 i {
-  width: 2.5vw;
-  font-size: 2vw;
+  font-size: 25px;
   margin-right: 2.5vw;
 }
 
 .class_title {
-  margin-top: 2.5vw;
-  font-size: 2.5vw;
-}
-
-.class_intro {
-  width: 80vw;
-  margin-top: 2vw;
-  line-height: 4vw;
-  padding-left: 2vw;
-  font-size: 1.6vw;
+  margin-top: 30px;
+  font-size: 25px;
 }
 
 .two_class {
@@ -50,16 +41,15 @@ i {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 5vw;
+  padding-bottom: 20px;
 }
 
 .pic {
-  width: 28vw;
-  height: 21vw;
+  width: 320px;
+  height: 240px;
   margin: 0;
-  border-radius: 10px;
   padding: 0;
-  border: solid 1vw #AA9D81;
+  border: solid 10px #AA9D81;
   border-radius: 20px;
   position: relative;
   left: 50%;
@@ -68,21 +58,21 @@ i {
   transition: 0.4s;
 }
 .pic:hover {
-  width: 28.6vw;
-  height: 21.4vw;
+  width: 328px;
+  height: 246px;
 }
 
 .name {
-  font-size: 2vw;
+  font-size: 20px;
   padding: 0;
-  width: 20vw;
-  height: 4.5vw;
-  line-height: 4.5vw;
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  margin-top: 1vw;
+  margin-top: 15px;
   border-radius: 15px;
   background-color: #C9C9C5;
 }
@@ -90,33 +80,23 @@ i {
 .intro {
   display: inline-block;
   width: 33vw;
-  line-height: 2.3vw;
-  margin-top: 2vw;
+  line-height: 30px;
+  margin-top: 20px;
   text-align: justify;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.3vw;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 800px){
   .two_class{
     display: block;
   }
-  .pic{
-    width: 60vw;
-    height: 45vw;
-  }
-  .name{
-    width: 30vw;
-    height: 7vw;
-    line-height: 7vw;
+  .one_class{
+    margin-top: 30px;
   }
   .intro{
-    line-height: 4vw;
-    width: 60vw;
-  }
-  .one_class{
-    margin-top: 10vw;
+    width: 66vw;
   }
 }
