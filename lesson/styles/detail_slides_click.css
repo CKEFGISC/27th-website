@@ -27,15 +27,14 @@ html, body {
 }
 
 .icon{
-  width: 3vw;
-  font-size: 2.5vw;
+  font-size: 25px;
   margin-left: 10vw;
   margin-top: 3vw;
 }
 
 .title{
   display: inline-block;
-  font-size: 2.5vw;
+  font-size: 25px;
   margin-left: 1vw;
   margin-top: 2vw;
 }
@@ -55,17 +54,17 @@ html, body {
 }
 
 .num{
-  width: 10vw;
+  width: 100px;
   margin-left: 1vw;
   margin-top: 1vw;
   margin-right: 0.7vw;
   text-align: center;
-  height: 2.5vw;
-  line-height: 2.5vw;
-  border-radius: 3vw;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
   background-color: #C9C9C5;
   display: inline-block;
-  font-size: 1.4vw;
+  font-size: 15px;
 }
 
 .lab{
@@ -74,8 +73,8 @@ html, body {
 }
 
 .image{
-  height: 15vw;
-  margin: 0.5vw;
+  height: 150px;
+  margin: 10px;
   padding: 0;
   display: inline;
 }
@@ -106,7 +105,7 @@ html, body {
 }
 .p{
   margin-left: 13vw;
-  font-size: 1.3vw;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -118,7 +117,6 @@ iframe{
 .onepeo{
   margin: 2vw 10vw;
   display: inline-block;
-  width: 20vw;
 }
 .per{
   margin: 1vw 2vw;
@@ -126,7 +124,7 @@ iframe{
 }
 
 .ebimg{
-  height: 15vw;
+  height: 150px;
   display: block;
   margin-top: 1vw;
 }
@@ -142,4 +140,8 @@ iframe{
 
 #eb6{
   margin-left: 15vw;
+}
+
+@media only screen and (max-width: 800px){
+  
 }
