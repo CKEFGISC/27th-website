@@ -22,22 +22,34 @@ html, body {
   width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 1.5vw;
-  margin-bottom: 1.5vw;
-  padding: 2vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
   border-radius: 20px;
   background-color: #D4D3CF;
 }
 
 .title{
-  font-size: 2vw;
+  font-size: 20px;
   margin-bottom: 1vw;
 }
 
 .text{
-  font-size: 1.3vw;
+  font-size: 15px;
   margin-left: 1vw;
-  line-height: 2.6vw;
+  line-height: 30px;
+}
+
+.aaa{
+  color: #5C5C5C;
+}
+@media only screen and (max-width: 800px){
+  .sec{
+    margin: auto;
+    width: 70vw;
+    margin-top: 20px;
+    padding: 20px;
+  }
 }
 
 

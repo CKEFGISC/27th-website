@@ -113,24 +113,25 @@
   background-color: #AA9D81;
   padding: 0.1vw 1.2vw;
   width: fit-content;
-  height: 4vw;
+  height: 40px;
   border-radius: 15px;
   text-align: center;
-  line-height: 4vw;
+  line-height: 40px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
-.btn:hover{
-  width: 16vw;
+.btn_a:hover{
+  font-size: 17px;
 }
 .btn_a{
   color: white;
   text-decoration:none;
-  font-size: 1.5vw;
+  font-size: 15px;
+  transition: 0.5s;
 }
 .qq{
-  border-radius: 8px;
-  padding: 0.5vw;
+  border-radius: 14px;
+  padding: 10px 20px;
   background-color: #C9C9C5;
   width: fit-content;
 }
@@ -149,25 +150,26 @@
 
 .aboutsite_sec{
   width: 70vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-top: 1.5vw;
-  margin-bottom: 1.5vw;
-  padding: 2vw;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
   border-radius: 20px;
   background-color: #D4D3CF;
 }
 
 .aboutsite_title{
-  font-size: 2vw;
+  font-size: 18px;
   margin-bottom: 1vw;
 }
 
 .aboutsite_text{
-  font-size: 1.3vw;
+  font-size: 15px;
   margin-left: 1vw;
 }
-
+.aaa{
+  color: black;
+}
 
 @media screen and (max-width: 800px){
   .btn{

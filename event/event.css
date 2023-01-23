@@ -19,14 +19,13 @@ html, body {
 }
 
 .icon {
-  width: 2.5vw;
-  font-size: 2vw;
+  font-size: 25px;
   margin-right: 2.5vw;
 }
 
 .event_title {
   margin-top: 2.5vw;
-  font-size: 2.5vw;
+  font-size: 25px;
 }
 
 .event_top {
@@ -34,7 +33,7 @@ html, body {
   margin-top: 3vw;
   margin-bottom: 2.5vw;
 }
-
+/*
 .event_intro {
   width: 80vw;
   margin-top: 2vw;
@@ -42,20 +41,20 @@ html, body {
   padding-left: 2vw;
   font-size: 1.8vw;
 }
+*/
 
 .one_event {
   display: flex;
-  margin-bottom: 3vw;
+  margin-bottom: 30px;
 }
 
 .pic {
-  width: 24vw;
-  height: 18vw;
+  width: 320px;
+  height: 240px;
   margin: 0;
-  border-radius: 10px;
-  padding: 0;
-  border: solid 0.7vw #AA9D81;
   border-radius: 20px;
+  padding: 0;
+  border: solid 10px #AA9D81;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -63,22 +62,23 @@ html, body {
   transition: 0.4s;
 }
 .pic:hover {
-  width: 24.8vw;
-  height: 18.6vw;
+  width: 328px;
+  height: 246px;
 }
 
 .name {
-  font-size: 1.8vw;
+  font-size: 20px;
   padding: 0;
-  width: 12.5vw;
-  height: 3.6vw;
-  line-height: 3.6vw;
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  margin-top: 1vw;
-  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
   background-color: #C9C9C5;
 }
 
@@ -91,7 +91,34 @@ html, body {
   display: inline-block;
   width: 50vw;
   margin-left: 5vw;
-  line-height: 3vw;
-  font-size: 1.6vw;
+  line-height: 30px;
+  font-size: 18px;
   margin-top: 0;
+}
+@media only screen and (max-width: 800px){
+  .intro{
+    margin: 0;
+    width: 66vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .one_event{
+    display: block;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .pic{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+  .PicAndName{
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 }
