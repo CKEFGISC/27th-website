@@ -8,10 +8,11 @@ html, body {
 
 .content {
   margin-left: 14vw;
-  font-size: 1.5vw;
+  font-size: 15px;
   margin-right: 8vw;
-  margin-top: 3vw;
-  line-height: 3vw;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 80vw;
 }
 
 .top {
@@ -41,7 +42,7 @@ html, body {
 
 
 .dt{  
-  width: 100vw;
+  width: 80%;
   padding-left: 17vw;
   padding-bottom: 0.7vw;
   margin-top: 1vw;

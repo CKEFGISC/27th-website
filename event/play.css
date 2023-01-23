@@ -29,16 +29,18 @@ html, body {
   margin-top: 20px;
 }
 .ti1{
+  padding: 0;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 10px;
 }
 .img{
   width: 60vw;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 20px;
+}
+.imgdiv{
+  width: 60vw;
+  margin: auto;
+  padding-top: 20px;
 }
 .intro{
   margin-left: 13vw;
