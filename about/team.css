@@ -19,18 +19,20 @@ html, body {
 }
 
 .title {
+  width: 600px;
   display: flex;
   justify-content: center;
-  margin-top: 5vw;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .club {
-  width: 16vw;
-  border-radius: 3vw;
+  width: 200px;
+  border-radius: 20px;
   text-align: center;
-  height: 3.5vw;
-  line-height: 3.5vw;
-  font-size: 2vw;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
 }
 
 .twop {
@@ -39,42 +41,44 @@ html, body {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  margin-top: 5vw;
+  margin-top: 30px;
 }
 
 .onep {
   display: flex;
   justify-content: center;
+  margin: 30px;
 }
 
 .pic {
-  width: 12vw;
-  height: 12vw;
+  width: 150px;
+  height: 150px;
   margin: 0;
   background-color: #AA9D81;
   border-radius: 10px;
   padding: 0;
-  border: solid 1vw #AA9D81;
+  border: solid 10px #AA9D81;
   border-radius: 10px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 2vw;
+  margin-top: 10px;
 }
 
 .pic_name{
-  padding-top: 2.5vw;
+  padding: 0;
+  width: 200px;
 }
 
 .name {
-  font-size: 1.3vw;
-  line-height: 3.5vw;
+  font-size: 18px;
+  line-height: 40px;
   padding: 0;
-  width: 14vw;
-  height: 3.5vw;
+  width: 200px;
+  height: 40px;
   margin: auto;
   margin-bottom: 1vw;
-  border-radius: 3vw;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -87,17 +91,13 @@ html, body {
 }
 
 .intro {
-  width: 21vw;
-  margin-left: 3vw;
-  padding-right: 2vw;
-  line-height: 2vw;
+  width: 200px;
+  margin-left: 20px;
+  padding-right: 10px;
+  line-height: 30px;
   display: inline-block;
-  font-size: 1.2vw;
+  font-size: 15px;
   text-align: justify;
-}
-
-.pic_name {
-  width: 14vw;
 }
 
 .no {
@@ -108,35 +108,13 @@ html, body {
   .twop{
     display: block;
   }
-  .pic{
-    width: 30vw;
-    height: 30vw;
-  }
-  .intro{
-    width: 30vw;
-    line-height: 4vw;
-    margin-left: 10vw;
-  }
-  .name{
-    line-height: 6vw;
-    padding: 0;
-    width: 30vw;
-    height: 6vw;
-    margin: auto;
-    margin-bottom: 1vw;
-    border-radius: 3vw;
-  }
-  .onep{
-    margin-top: 6vw;
-  }
-  .club{
-    line-height: 6vw;
-    width: 30vw;
-    height: 6vw;
-    margin: auto;
-    margin-top: 2vw;
-  }
   .title{
     display: block;
+    width: 200px;
+  }
+  .pic{
+    width: 100px;
+    height: 100px;
+
   }
 }
