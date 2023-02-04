@@ -1,6 +1,10 @@
 header {
   padding: 0 15vw;
   height: 10vh;
+  top: 0;
+  position: sticky;
+  z-index: 99999;
+  background-color: var(--soft-white);
 }
 
 #logo {
@@ -11,6 +15,10 @@ header {
 
 #logo img {
   height: 70%;
+}
+
+#menu-button {
+  display: none;
 }
 
 #navigation {
@@ -31,7 +39,7 @@ header {
   align-items: center;
   padding: 0 1.5vw;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 18px;
   color: var(--dark-brown);
   text-decoration: none;
   transition: 0.3s;
@@ -41,3 +49,27 @@ header {
   color: var(--soft-white);
   background-color: var(--light-brown);
 }
+
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 0 15vw;
+    height: 7vh;
+  }
+
+  #menu-button {
+    display: inline-flex;
+    align-items: center;
+    float: right;
+    height: inherit;
+  }
+
+  #menu-button i {
+    font-size: 30px;
+    color: var(--dark-brown);
+  }
+
+  #navigation {
+    display: none;
+  }
+}
+
