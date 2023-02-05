@@ -52,8 +52,12 @@ header {
 
 @media only screen and (max-width: 800px) {
   header {
-    padding: 0 15vw;
+    padding: 0;
     height: 7vh;
+  }
+
+  #logo {
+    margin-left: 15vw;
   }
 
   #menu-button {
@@ -61,15 +65,32 @@ header {
     align-items: center;
     float: right;
     height: inherit;
-  }
-
-  #menu-button i {
+    padding: 0 5vw;
     font-size: 30px;
     color: var(--dark-brown);
+    transition: 0.3s;
+  }
+
+  #menu-button:hover {
+    color: var(--soft-white);
+    background-color: var(--light-brown);
   }
 
   #navigation {
-    display: none;
+    position: fixed;
+    right: 0;
+    width: 0;
+    min-height: 93vh;
+    height: auto;
+    padding-left: 0;
+    background-image: linear-gradient(to right, var(--soft-white) 0%, var(--soft-white) 100%), linear-gradient(to right, rgba(0, 0, 0, 20%) 0%, rgba(0, 0, 0, 70%) 100%);
+    background-clip: content-box, padding-box;
+    transition: 0.3s;
+  }
+
+  #navigation li a {
+    display: block;
+    padding: 5vw;
   }
 }
 
