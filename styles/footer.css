@@ -24,3 +24,13 @@ footer td {
   line-height: 0.5vw;
 }
 
+@media only screen and (max-width: 800px) {
+  footer div {
+    margin: 7vw 0;
+  }
+
+  #copyright p {
+    line-height: unset;
+  }
+}
+
