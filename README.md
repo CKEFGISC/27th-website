@@ -58,4 +58,3 @@ CSS links除了有styles裡面需要共用的CSS，<br>
 ./gennews test
 ```
 注意參數僅為其「檔名」，而不包含完整路徑或副檔名
-
