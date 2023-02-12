@@ -51,6 +51,13 @@ html, body {
   display: inline-block;
 }
 
+.bannerImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 .mark{
   display: inline-block;
   margin-left: 1vw;
