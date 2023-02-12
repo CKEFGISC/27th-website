@@ -69,8 +69,6 @@
     └── news-template.css
 ```
 
-![image](images/社網架構.png)
-
 ## 編輯規則
 * commit message請使用有意義文句
 * 請遵守git flow, 詳請看此[文章](https://ithelp.ithome.com.tw/articles/10227605)
