@@ -2,7 +2,7 @@
 # 建北電資社網架設中
 專案管理負責：建電一三學術長 吳亞倫 [@AaronWu-train](https://www.github.com/AaronWu-train) <br>
 網頁架設負責：北資一三學術長 蘇怡恩 [@gracesu307](https://www.github.com/gracesu307)   <br>
-　　　　　　　建電一三學術　 溫室蔡 [@VerstandTsai](https://github.com/VerstandTsai))  <br>
+　　　　　　　建電一三學術　 溫室蔡 [@VerstandTsai](https://github.com/VerstandTsai)  <br>
 
 ## 社網架構
 ```
