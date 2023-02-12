@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 140px;
+  background-color: #AA9D81;
+  text-align: center;
+  line-height: 140px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.title {
+  margin-left: 7px;
+  font-size: 28px;
+  display: inline-block;
+}
+
+.content {
+  margin: auto;
+  width: 65vw;
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.icon{
+  font-size: 28px;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  display: inline-block;
+}
+
+.ti1{
+  margin-left: 13vw;
+  font-size: 22px;
+  margin-top: 1vw;
+}
+
+.image{
+  width: 14vw;
+  margin-top: 1vw;
+  margin-left: 15vw;
+  display: inline-block;
+}
+
+.bannerImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
+
+.mark{
+  display: inline-block;
+  margin-left: 1vw;
+  width: 50vw;
+  font-size: 17px;
+  margin-right: 8vw;
+  line-height: 30px;
+}
+
+.btn{
+  background-color: #AA9D81;
+  width: 15vw;
+  height: 4vw;
+  margin-left: 14vw;
+  font-size: 1.5vw;
+  margin-right: 8vw;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 4vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover{
+  width: 16vw;
+  height: 4.2vw;
+  line-height: 4.2vw;
+}
+.btn_a{
+  color: white;
+  text-decoration:none;
+}
+
+.ct{
+  display: flex;
+  align-items: flex-start;
+}
+
+.aaa{
+  color: black;
+}
+
+@media only screen and (max-width: 800px){
+  .image{
+    width: 30vw;
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+  }
+  .mark{
+    width: 58vw;
+    display: block;
+    margin: auto;
+    margin-top: 4vw;
+  }
+  .ct{
+    display: block;
+  }
+}

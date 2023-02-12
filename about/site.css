@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 140px;
+  background-color: #AA9D81;
+  text-align: center;
+  line-height: 140px;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 1.5vw;
+}
+
+.sec{
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #D4D3CF;
+}
+
+.title{
+  font-size: 20px;
+  margin-bottom: 1vw;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 1vw;
+  line-height: 30px;
+}
+
+.aaa{
+  color: #5C5C5C;
+}
+@media only screen and (max-width: 800px){
+  .sec{
+    margin: auto;
+    width: 70vw;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+
+
+
+

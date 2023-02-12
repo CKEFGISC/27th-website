@@ -3,18 +3,92 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- remove the following ling after construction is done -->
-  <meta http-equiv="refresh" content="0; URL=UnderConstruction.html" />
-  
-  <script src="/scripts/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="/scripts/include.js"></script>
-  <link rel="stylesheet" href="/styles/header.css">
-  <link rel="stylesheet" href="/styles/footer.css">
-  <title></title>
+  <script src="/scripts/news.js"></script>
+  <link rel="stylesheet" href="/styles/index.css">
+  <title>建北電資 CKEFGISC</title>
 </head>
 <body>
   <header></header>
-  <div id="main-container"></div>
+  <div id="main-container">
+    <div id="title-section" class="section">
+      <h1>全台最「電」</h1>
+      <h1>資訊系社團</h1>
+      <h2>建中電子計算機研習社×北一女中資訊研習社</h2>
+      <a href="https://www.instagram.com/ckeisc_42nd/">點我地社</a>
+    </div>
+    <div id="news-section" class="section">
+      <div class="section-title">
+        <p>最新消息</p>
+      </div>
+      <ul id="news-list" class="line-list"></ul>
+    </div>
+    <div id="lesson-section" class="section">
+      <div class="section-title">
+        <p>課程介紹</p>
+      </div>
+      <table id="lesson-links">
+        <tbody>
+          <tr>
+            <td colspan="2"><a id="major-lesson" href="/lesson#major-class">大社課</a></td>
+          </tr>
+          <tr>
+            <td><a id="noon-lesson" href="/lesson#noon-class">北資中午小社課</a></td>
+            <td><a id="after-lesson" href="/lesson#after-class">建北電資聯合放學小社課</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="faq-section" class="section">
+      <div class="section-title">
+        <p>常見問答</p>
+      </div>
+      <ul class="line-list">
+        <li>
+          <p class="qq">Q：小社是星期幾？</p>
+          <br>
+          <p>A：</p>
+          <p>每天放學之後都有喔～（除了段考週和前一週）</p>
+          <p class="btn"><a class="btn_a" href="/lesson">點我看小社介紹</a></p>
+        </li>
+        <li>
+          <p class="qq">Q：學長姐，我有第八節，來得及來聽課嗎？</p>
+          <br>
+          <p>A：</p>
+          <p>可以喔！</p>
+          <p>我們基本上會等到北資的同學5:10下課可以安全走到建中的時間才開始上課，不論是北資還是建電的數資、科學班學生，都歡迎來參加小社！</p>
+        </li>
+        <li>
+          <p class="qq">Q：我要怎麼來聽社課呢？</p>
+          <br>
+          <p>A：</p>
+          <p>只要你是建北電資的社員，都可以直接來聽課，完全不用事先報名的啦XD</p>
+        </li>
+      </ul>
+    </div>
+    <div id="aboutsite-section" class="section">
+      <div class="section-title">
+        <p>關於本站</p>
+      </div>
+      <div class="aboutsite_sec">
+        <div class="aboutsite_title">緣起</div>
+        <div class="aboutsite_text">
+          建北電資以往皆有架設網站作為招生及宣傳用途。但是自從建電社辦的伺服器被學校沒收之後，一直以來都找不到一個良好的網站架設環境，也沒有一個地方讓學術們統一放置教材供學弟妹使用。因此，在一三上幹了之後，一二學術長檸檬便一直希望鹽亞倫可以將他們沒有做出的社網完成。因此，不會css的鹽亞倫便找了溫室菜以及北資學術長嗯嗯，嘗試從頭寫出一個網站，並且透過github pages進行架設。<br>
+          <div style="text-align: right;"><a href="/about/site.html" class="aaa">>>> 閱讀更多本站歷史</a></div>
+        </div>
+      </div>
+      <div class="aboutsite_sec">
+        <div class="aboutsite_title">製作團隊</div>
+        <div class="aboutsite_text">專案管理：建電42nd吳亞倫<br>網站架設：北資36th蘇怡恩、建電42nd蔡政廷<br>
+          <div style="text-align: right;"><a href="/about/site.html" class="aaa">>>> 更多本站資訊</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer></footer>
+  <script>
+    listNews(4);
+  </script>
 </body>
 </html>

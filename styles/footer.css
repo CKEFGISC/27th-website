@@ -1,0 +1,36 @@
+footer {
+  padding: 3vw 15vw;
+  margin-top: 5vw;
+  background-color: var(--light-brown);
+  color: var(--soft-white);
+  font-weight: 700;
+  font-size: 1vw;
+  text-align: left;
+}
+
+footer a {
+  color: var(--soft-white);
+}
+
+footer td {
+  padding-right: 1vw;
+}
+
+#copyright {
+  text-align: center;
+}
+
+#copyright p {
+  line-height: 0.5vw;
+}
+
+@media only screen and (max-width: 800px) {
+  footer div {
+    margin: 7vw 0;
+  }
+
+  #copyright p {
+    line-height: unset;
+  }
+}
+

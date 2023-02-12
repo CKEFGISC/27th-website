@@ -1,34 +1,96 @@
-body {
-  margin: 0;
+header {
+  padding: 0 15vw;
+  height: 10vh;
+  top: 0;
+  position: sticky;
+  z-index: 99999;
+  background-color: var(--soft-white);
 }
 
-header {
-  background-color: #203864;
+#logo {
+  display: inline-flex;
+  height: inherit;
+  align-items: center;
+}
+
+#logo img {
+  height: 70%;
+}
+
+#menu-button {
+  display: none;
 }
 
 #navigation {
-  list-style-type: none;
-  text-align: right;
+  float: right;
+  height: inherit;
   margin: 0;
   padding: 0;
 }
 
 #navigation li {
-  display: inline-block;
-  padding: 20px 5px 20px 5px;
+  display: inline;
+  height: inherit;
 }
 
 #navigation li a {
-  font-family: "微軟正黑體", "Microsoft Jhenghei", sans-serif;
+  display: inline-flex;
+  height: inherit;
+  align-items: center;
+  padding: 0 1.5vw;
   font-weight: bold;
-  font-size: 20px;
-  color: #fff;
-  padding: 5px 20px 5px 20px;
-  border-radius: 8px;
+  font-size: 18px;
+  color: var(--dark-brown);
   text-decoration: none;
+  transition: 0.3s;
 }
 
 #navigation li a:hover {
-  color: #203864;
-  background-color: #fff;
+  color: var(--soft-white);
+  background-color: var(--light-brown);
 }
+
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 0;
+    height: 7vh;
+  }
+
+  #logo {
+    margin-left: 15vw;
+  }
+
+  #menu-button {
+    display: inline-flex;
+    align-items: center;
+    float: right;
+    height: inherit;
+    padding: 0 5vw;
+    font-size: 30px;
+    color: var(--dark-brown);
+    transition: 0.3s;
+  }
+
+  #menu-button:hover {
+    color: var(--soft-white);
+    background-color: var(--light-brown);
+  }
+
+  #navigation {
+    position: fixed;
+    right: 0;
+    width: 0;
+    min-height: 93vh;
+    height: auto;
+    padding-left: 0;
+    background-image: linear-gradient(to right, var(--soft-white) 0%, var(--soft-white) 100%), linear-gradient(to right, rgba(0, 0, 0, 20%) 0%, rgba(0, 0, 0, 70%) 100%);
+    background-clip: content-box, padding-box;
+    transition: 0.3s;
+  }
+
+  #navigation li a {
+    display: block;
+    padding: 5vw;
+  }
+}
+

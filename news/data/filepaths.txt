@@ -1,0 +1,3 @@
+/news/posts/test2.txt
+/news/posts/test.txt
+0

@@ -1,0 +1,186 @@
+.section {
+  margin-bottom: 5vw;
+}
+
+#title-section {
+  padding: 5vw 15vw;
+  background-image: url("/images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#title-section h1 {
+  color: var(--soft-white);
+  font-size: 8vw;
+  line-height: 4vw;
+  text-shadow: 0 0 1vw black;
+}
+
+#title-section h2 {
+  color: #fec;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+  text-shadow: 0 0 1vw black;
+}
+
+#title-section a {
+  padding: 1vw 2vw;
+  color: var(--soft-white);
+  background-color: var(--contrast-blue);
+  border-radius: 1vw;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.section-title {
+  margin: 0 43vw 3vw 43vw;
+  background-color: var(--light-brown);
+  transform: skewX(-45deg);
+}
+
+.section-title p {
+  color: var(--soft-white);
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 700;
+  transform: skewX(45deg);
+}
+
+#lesson-links {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+#lesson-links td {
+  width: 50%;
+  height: 20vw;
+}
+
+#lesson-links a {
+  color: var(--soft-white);
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-shadow: 0 0 20px black;
+  font-size: 2.5vw;
+  font-weight: 700;
+  transition: font-size 0.5s;
+}
+
+#lesson-links a:hover {
+  font-size: 3vw;
+}
+
+#major-lesson {
+  background-image: url("/images/ckeisc_main.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
+}
+
+#noon-lesson {
+  background-image: url("/images/placeholder.png");
+}
+
+#after-lesson {
+  background-image: url("/images/ckefgisc_unite.jpg");
+  background-size: cover;
+  filter: grayscale(50%);
+}
+
+.line-list {
+  margin: 0 15vw;
+  padding: 0;
+}
+
+.line-list li {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: var(--dark-brown);
+  border-bottom: 5px solid var(--light-brown);
+  padding: 1.5vw 0;
+  list-style-type: none;
+}
+
+.line-list li p {
+  margin: 0.5vw;
+}
+
+.btn{
+  background-color: #AA9D81;
+  padding: 0.1vw 1.2vw;
+  width: fit-content;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn_a:hover{
+  font-size: 17px;
+}
+.btn_a{
+  color: white;
+  text-decoration:none;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.qq{
+  border-radius: 14px;
+  padding: 10px 20px;
+  background-color: #C9C9C5;
+  width: fit-content;
+}
+.aa{
+  border-radius: 8px;
+  padding: 0.5vw;
+  background-color: #E3E3DE;
+  width: fit-content;
+}
+
+.a_news{
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 1vw;
+  letter-spacing: 1px;
+}
+
+.aboutsite_sec{
+  width: 70vw;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #D4D3CF;
+}
+
+.aboutsite_title{
+  font-size: 18px;
+  margin-bottom: 1vw;
+}
+
+.aboutsite_text{
+  font-size: 15px;
+  margin-left: 1vw;
+}
+.aaa{
+  color: black;
+}
+
+@media screen and (max-width: 800px){
+  .btn{
+    background-color: #AA9D81;
+    padding: 0.5vw 3vw;
+    width: fit-content;
+    border-radius: 8px;
+  }
+  .qq{
+    background-color: #C9C9C5;
+    padding: 0.5vw 2vw;
+    border-radius: 8px;
+  }
+}
