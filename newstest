@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+from random import randint, choices
+from string import ascii_letters
+import subprocess
+
+def randstr(size):
+    return ''.join(choices(ascii_letters, k=size))
+
+if __name__ == '__main__':
+    n = 50
+    for i in range(n):
+        with open(f'./news/posts/test-{i}.txt', 'w') as post:
+            post.write(f'{randint(2000, 2050)}-{randint(1, 12)}-{randint(1, 30)}\n')
+            post.write(randstr(randint(5, 20)) + '\n')
+            for j in range(randint(3, 20)):
+                post.write(randstr(randint(20, 30)) + '\n\n')
+    for i in range(n):
+        subprocess.run(['./gennews', f'test-{i}'])
+
