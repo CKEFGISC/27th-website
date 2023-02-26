@@ -50,7 +50,7 @@ header {
   background-color: var(--light-brown);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
   header {
     padding: 0;
     height: 7vh;

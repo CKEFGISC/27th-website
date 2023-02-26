@@ -91,24 +91,6 @@
   filter: grayscale(50%);
 }
 
-.line-list {
-  margin: 0 15vw;
-  padding: 0;
-}
-
-.line-list li {
-  font-size: 1.5vw;
-  font-weight: 700;
-  color: var(--dark-brown);
-  border-bottom: 5px solid var(--light-brown);
-  padding: 1.5vw 0;
-  list-style-type: none;
-}
-
-.line-list li p {
-  margin: 0.5vw;
-}
-
 .btn{
   background-color: #AA9D81;
   padding: 0.1vw 1.2vw;
@@ -140,12 +122,6 @@
   padding: 0.5vw;
   background-color: #E3E3DE;
   width: fit-content;
-}
-
-.a_news{
-  color: rgba(0, 0, 0, 0.7);
-  margin-left: 1vw;
-  letter-spacing: 1px;
 }
 
 .aboutsite_sec{

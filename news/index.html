@@ -1,30 +1,26 @@
-<!-- The MIT License (MIT) -->
-<!-- Copyright (c) 2022 by Tiaan (https://codepen.io/tiaan/pen/QKmyzr) -->
-
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Under Construction</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/styles/UnderConstruction.css">
-
-  <meta http-equiv="refresh" content="10; URL=https://youtu.be/vewQUlj1hAc" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="/scripts/include.js"></script>
+  <script src="/scripts/news.js"></script>
+  <link rel="stylesheet" href="/styles/news.css">
+  <title>公告 | 建北電資 CKEFGISC</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="overlay"></div>
-<div class="stars" aria-hidden="true"></div>
-<div class="starts2" aria-hidden="true"></div>
-<div class="stars3" aria-hidden="true"></div>
-<main class="main">
-	<section class="contact">
-		<h1 class="title">CKEFGISC's page</h1>
-		<h2 class="sub-title">Site Under Construction</h2>
-	</section>
-</main>
-<!-- partial -->
-  <script  src="/script.js"></script>
-
+  <header></header>
+  <div id="main-container">
+    <div id="news-section" class="section">
+      <div class="top">最新消息</div>
+      <ul id="news-list" class="line-list"></ul>
+    </div>
+  </div>
+  <footer></footer>
+  <script>
+    listNews(0, 10);
+  </script>
 </body>
 </html>
+
