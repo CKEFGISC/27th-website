@@ -1,0 +1,23 @@
+.page-selector {
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.page-selector li {
+  display: inline-block;
+  margin: 0 0.2vw;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 5px solid var(--light-brown);
+  color: var(--soft-white);
+  background-color: var(--light-brown);
+}
+
+.page-selector li:hover {
+  color: var(--light-brown);
+  background-color: var(--soft-white);
+}
+

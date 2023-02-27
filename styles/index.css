@@ -11,24 +11,24 @@
 
 #title-section h1 {
   color: var(--soft-white);
-  font-size: 8vw;
-  line-height: 4vw;
-  text-shadow: 0 0 1vw black;
+  font-size: 120px;
+  line-height: 60px;
+  text-shadow: 0 0 10px black;
 }
 
 #title-section h2 {
   color: #fec;
-  font-size: 1.5vw;
+  font-size: 24px;
   margin-bottom: 2vw;
-  text-shadow: 0 0 1vw black;
+  text-shadow: 0 0 10px black;
 }
 
 #title-section a {
-  padding: 1vw 2vw;
+  padding: 16px 32px;
   color: var(--soft-white);
   background-color: var(--contrast-blue);
-  border-radius: 1vw;
-  font-size: 1.5vw;
+  border-radius: 18px;
+  font-size: 24px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -42,7 +42,7 @@
 .section-title p {
   color: var(--soft-white);
   text-align: center;
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: 700;
   transform: skewX(45deg);
 }
@@ -52,26 +52,22 @@
   width: 70vw;
 }
 
-#lesson-links td {
-  width: 50%;
-  height: 20vw;
-}
-
 #lesson-links a {
   color: var(--soft-white);
   display: flex;
-  height: inherit;
+  height: 20vw;
+  text-align: center;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   text-shadow: 0 0 20px black;
-  font-size: 2.5vw;
+  font-size: 40px;
   font-weight: 700;
   transition: font-size 0.5s;
 }
 
 #lesson-links a:hover {
-  font-size: 3vw;
+  font-size: 50px;
 }
 
 #major-lesson {
@@ -89,24 +85,6 @@
   background-image: url("/images/ckefgisc_unite.jpg");
   background-size: cover;
   filter: grayscale(50%);
-}
-
-.line-list {
-  margin: 0 15vw;
-  padding: 0;
-}
-
-.line-list li {
-  font-size: 1.5vw;
-  font-weight: 700;
-  color: var(--dark-brown);
-  border-bottom: 5px solid var(--light-brown);
-  padding: 1.5vw 0;
-  list-style-type: none;
-}
-
-.line-list li p {
-  margin: 0.5vw;
 }
 
 .btn{
@@ -172,6 +150,38 @@
 }
 
 @media screen and (max-width: 800px){
+  #title-section {
+    padding: 5vw 15vw 10vw 15vw;
+  }
+
+  #title-section h1 {
+    font-size: 45px;
+    line-height: 24px;
+  }
+
+  #title-section h2 {
+    font-size: 20px;
+    margin-bottom: 6vw;
+  }
+
+  #title-section a {
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+
+  .section-title {
+    margin: 0 25vw 3vw 25vw;
+  }
+
+  .section-title p {
+    font-size: 30px;
+  }
+
+  #lesson-links a {
+    height: 80vw;
+    font-size: 32px;
+  }
   .btn{
     background-color: #AA9D81;
     padding: 0.5vw 3vw;
@@ -184,3 +194,4 @@
     border-radius: 8px;
   }
 }
+
