@@ -10,7 +10,7 @@ def randstr(size):
 if __name__ == '__main__':
     with open('./news/data/filepaths.txt', 'w') as paths:
         paths.write('/news/posts/test2.txt\n/news/posts/test.txt\n0')
-    n = 30
+    n = 25
     for i in range(n):
         with open(f'./news/posts/test-{i}.txt', 'w') as post:
             post.write(f'{randint(2000, 2050)}-{randint(1, 12)}-{randint(1, 30)}\n')

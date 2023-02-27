@@ -1,8 +1,3 @@
-/news/posts/test-29.txt
-/news/posts/test-28.txt
-/news/posts/test-27.txt
-/news/posts/test-26.txt
-/news/posts/test-25.txt
 /news/posts/test-24.txt
 /news/posts/test-23.txt
 /news/posts/test-22.txt
