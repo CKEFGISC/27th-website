@@ -12,10 +12,6 @@ footer a {
   color: var(--soft-white);
 }
 
-footer td {
-  padding-right: 1vw;
-}
-
 #copyright {
   text-align: center;
 }
@@ -26,7 +22,7 @@ footer td {
 
 @media only screen and (max-width: 1100px) {
   footer {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   footer div {
