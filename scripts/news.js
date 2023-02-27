@@ -37,3 +37,19 @@ function listNews(start, numposts) {
     });
   }
 }
+
+function showNews(postsPerPage) {
+  let numPages = 0;
+  $.ajax({
+    url: '/news/data/filepaths.txt',
+    async: false,
+    success: function(data) {
+      numPages = Math.ceil((data.split('\n').length - 1) / postsPerPage);
+    }
+  });
+  listNews(0, postsPerPage);
+  for (let i=0; i<numPages; i++) {
+    $('.page-selector').append(`<li onclick="$('#news-list').empty();listNews(${i*postsPerPage}, ${postsPerPage});">${i+1}</li>`);
+  }
+}
+
