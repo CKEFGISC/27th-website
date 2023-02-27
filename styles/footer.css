@@ -4,7 +4,7 @@ footer {
   background-color: var(--light-brown);
   color: var(--soft-white);
   font-weight: 700;
-  font-size: 1vw;
+  font-size: 14px;
   text-align: left;
 }
 
@@ -24,7 +24,11 @@ footer td {
   line-height: 0.5vw;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
+  footer {
+    font-size: 12px;
+  }
+
   footer div {
     margin: 7vw 0;
   }
