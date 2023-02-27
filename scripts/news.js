@@ -1,3 +1,7 @@
+function isMobile() {
+  return window.innerWidth < 800;
+}
+
 function loadNews(filename) {
   $.get(filename, function(data) {
     let lines = data.split('\n');
@@ -12,6 +16,7 @@ function loadNews(filename) {
 }
 
 function listNews(start, numposts) {
+  let breakOrSpace = isMobile() ? '<br>' : ' ';
   let paths = [];
   $.ajax({
     url: '/news/data/filepaths.txt',
@@ -32,7 +37,7 @@ function listNews(start, numposts) {
         let lines = post.split('\n');
         let date = lines[0];
         let title = lines[1];
-        $('#news-list').append(`<li>${date} <a href="${url}">${title}</a></li>`);
+        $('#news-list').append(`<li>${date}${breakOrSpace}<a href="${url}">${title}</a></li>`);
       }
     });
   }
