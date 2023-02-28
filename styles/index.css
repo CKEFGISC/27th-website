@@ -88,6 +88,10 @@
   filter: grayscale(50%);
 }
 
+#faq-section .line-list p {
+  font-size: 18px;
+}
+
 .btn{
   background-color: #AA9D81;
   padding: 0.1vw 1.2vw;
@@ -138,12 +142,12 @@
 }
 
 .aboutsite_title{
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 1vw;
 }
 
 .aboutsite_text{
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 1vw;
 }
 .aaa{
