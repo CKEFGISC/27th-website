@@ -79,7 +79,10 @@
 }
 
 #noon-lesson {
-  background-image: url("/images/placeholder.png");
+  background-image: url("/images/fgisc_noon.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
 }
 
 #after-lesson {
