@@ -37,7 +37,7 @@ function listNews(start, numposts) {
         let lines = post.split('\n');
         let date = lines[0];
         let title = lines[1];
-        $('#news-list').append(`<li>${date}${breakOrSpace}<a href="${url}">${title}</a></li>`);
+        $('#news-list').append(`<li>${date}${breakOrSpace}<a href="${url}" style="margin-left: 1vw;">${title}</a></li>`);
       }
     });
   }

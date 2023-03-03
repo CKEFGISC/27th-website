@@ -34,7 +34,8 @@
 }
 
 .section-title {
-  margin: 0 43vw 3vw 43vw;
+  width: 180px;
+  margin: 0 auto 3vw auto;
   background-color: var(--light-brown);
   transform: skewX(-45deg);
 }
@@ -78,13 +79,20 @@
 }
 
 #noon-lesson {
-  background-image: url("/images/placeholder.png");
+  background-image: url("/images/fgisc_noon.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
 }
 
 #after-lesson {
   background-image: url("/images/ckefgisc_unite.jpg");
   background-size: cover;
   filter: grayscale(50%);
+}
+
+#faq-section .line-list p {
+  font-size: 18px;
 }
 
 .btn{
@@ -137,26 +145,26 @@
 }
 
 .aboutsite_title{
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 1vw;
 }
 
 .aboutsite_text{
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 1vw;
 }
 .aaa{
   color: black;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1100px) {
   #title-section {
     padding: 5vw 15vw 10vw 15vw;
   }
 
   #title-section h1 {
-    font-size: 45px;
-    line-height: 24px;
+    font-size: 40px;
+    line-height: 20px;
   }
 
   #title-section h2 {
@@ -170,18 +178,11 @@
     font-size: 20px;
   }
 
-  .section-title {
-    margin: 0 25vw 3vw 25vw;
-  }
-
-  .section-title p {
-    font-size: 30px;
-  }
-
   #lesson-links a {
     height: 80vw;
     font-size: 32px;
   }
+
   .btn{
     background-color: #AA9D81;
     padding: 0.5vw 3vw;
