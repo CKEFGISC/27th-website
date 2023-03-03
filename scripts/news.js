@@ -8,6 +8,7 @@ function loadNews(filename) {
     let date = lines[0];
     let title = lines[1];
     let content = lines.slice(2);
+    $('title').prepend(title);
     $('#news-title').append(`<p>${title}</p>`);
     for (let i=0; i<content.length; i++) {
       $('#news-content').append(`<p>${content[i]}</p>`);
