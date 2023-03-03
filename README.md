@@ -60,8 +60,8 @@ CSS links除了有styles裡面需要共用的CSS，<br>
 ```
 注意參數僅為其「檔名」，而不包含完整路徑或副檔名
 
-## 網站資訊
+## 關於
 Copyright © 2022 CKEFGISC 建北電資<br>
 本站由建北電資27th (一三) 設計與完成，並使用Github Pages服務架設。<br>
-原始碼皆開源於本社團的Github儲存庫中，並且採用MIT條款授權。版權聲明詳見[LICENSE](https://github.com/CKEFGISC/CKEFGISC.github.io/blob/main/LICENSE.txt)。<br>
+原始碼皆開源於本Github儲存庫中，並且採用MIT條款授權。版權聲明詳見[LICENSE](https://github.com/CKEFGISC/CKEFGISC.github.io/blob/main/LICENSE.txt)。<br>
 如果您有任何關於本站的疑問，歡迎至issues發問。如果您希望協助修正錯誤或與我們一起完善此網站，也歡迎進行Pull Request。<br>
