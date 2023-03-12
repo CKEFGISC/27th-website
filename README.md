@@ -54,9 +54,9 @@ CSS links除了有styles裡面需要共用的CSS，<br>
 以及提供做為演示用途的範例
 ```
 ### HTML生成
-使用`gennews`來生成 HTML 網頁：
+使用`gennews.sh`來生成 HTML 網頁：
 ```
-./gennews test
+./gennews.sh test
 ```
 注意參數僅為其「檔名」，而不包含完整路徑或副檔名
 
