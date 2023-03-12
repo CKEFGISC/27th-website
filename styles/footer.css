@@ -1,40 +1,31 @@
 footer {
+  display: flex;
+  justify-content: space-between;
   margin-top: 5vw;
+  padding: 1vw 4vw;
   color: var(--soft-white);
   background-color: var(--light-brown);
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14px;
 }
 
-footer br {
-  display: none;
-}
-
-#footer-main {
-  padding: 3vw 15vw;
-}
-
-#footer-desc {
-  text-align: center;
-  margin-bottom: 3vw;
-}
-
-#footer-text p {
-  font-size: 18px;
+#copyright {
+  display: inline;
 }
 
 #contact-links {
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 #contact-links a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin: 0 2vw;
+  margin: 0 1vw;
   text-decoration: none;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   font-size: 20px;
   color: var(--soft-white);
   border: 2px solid var(--soft-white);
@@ -47,58 +38,11 @@ footer br {
   background-color: var(--soft-white);
 }
 
-#footer-bottom {
-  padding: 1vw 4vw;
-  backdrop-filter: brightness(80%);
-}
-
-#copyright {
-  display: inline;
-}
-
-#copyright a {
-  color: var(--soft-white);
-}
-
-#footer-nav {
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-
-#footer-nav li {
-  display: inline;
-  margin: 0 1vw; 
-}
-
-#footer-nav li a {
-  text-decoration: none;
-  color: var(--soft-white);
-}
-
-#footer-nav li a:hover {
-  filter: brightness(90%);
-}
-
 @media only screen and (max-width: 1100px) {
   footer {
-    font-size: 18px;
-  }
-
-  footer br {
     display: inherit;
-  }
-
-  #contact-links {
-    margin: 10vw 0;
-  }
-
-  #footer-bottom {
+    font-size: 18px;
     padding-bottom: 10vw;
-  }
-
-  .footer-comma {
-    display: none;
   }
 
   #copyright {
@@ -106,18 +50,16 @@ footer br {
     text-align: center;
   }
 
-  #footer-nav {
-    float: none;
-    text-align: center;
+  #contact-links {
+    justify-content: center;
     margin: 4vw 0;
   }
 
-  #footer-nav li {
-    margin: 0 6vw
-  }
-
-  #footer-nav li a {
-    text-decoration: underline;
+  #contact-links a {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    margin: 0 2vw;
   }
 }
 
