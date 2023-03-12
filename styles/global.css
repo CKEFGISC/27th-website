@@ -6,10 +6,17 @@ body {
   margin: 0;
   background-color: var(--soft-white);
   font-family: "Noto Sans TC", "微軟正黑體", "Microsoft Jhenghei", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 * {
   caret-color: rgba(0, 0, 0, 0);
+}
+
+#main-container {
+  flex: 1;
 }
 
 .top {
