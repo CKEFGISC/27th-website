@@ -1,8 +1,14 @@
 $(function(){
-  $.get('/common/csslinks.html', function (data) {
+  $.get('/common/csslinks.html', function(data) {
     $('head').append(data);
   });
-  $('header').load('/common/header.html'); 
-  $('footer').load('/common/footer.html');
+  $.get('/common/header.html', function(data) {
+    data = data.replace(/>[\n\t ]+</g, "><");
+    $('header').append(data);
+  });
+  $.get('/common/footer.html', function(data) {
+    data = data.replace(/>[\n\t ]+</g, "><");
+    $('footer').append(data);
+  });
 });
 
