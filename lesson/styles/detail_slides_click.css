@@ -31,6 +31,7 @@ html, body {
   font-size: 25px;
   margin-left: 10vw;
   margin-top: 3vw;
+  white-space: nowrap;
 }
 
 .title{
