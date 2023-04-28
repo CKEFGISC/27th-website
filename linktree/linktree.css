@@ -1,0 +1,116 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 140px;
+  background-color: #AA9D81;
+  text-align: center;
+  line-height: 140px;
+  font-size: 50px;
+  color: #fff;
+}
+.trunk{
+	width: 30px;
+	height: 300px;
+	background-color: #523E37;
+	position: absolute;
+	top: 180px;
+	left: 210px;
+}
+.leafbranch{
+	position: relative;
+	height: 480px;
+	width: 510px;
+	margin: auto;
+	margin-top: 10px;
+}
+.branch{
+	width: 20px;
+	height: 150px;
+	background-color: #523E37;
+	position: relative;
+}
+
+.branch1{
+	transform: rotate(-60deg);
+	top: 160px;
+	left: 150px;
+}
+.branch2{
+	transform: rotate(70deg);
+	top: -50px;
+	left: 300px;
+	height: 200px;
+}
+.branch3{
+	transform: rotate(-20deg);
+	top: -250px;
+	left: 195px;
+	height: 100px;
+}
+.branch4{
+	transform: rotate(70deg);
+	top: -220px;
+	left: 150px;
+	height: 80px;
+}
+.branch5{
+	transform: rotate(-70deg);
+	top: -335px;
+	left: 280px;
+	height: 80px;
+}
+.branch6{
+	transform: rotate(20deg);
+	top: -480px;
+	left: 280px;
+	height: 80px;
+}
+.leaf{
+	height: 120px;
+	width: 120px;
+	background-color: #046B1E;
+	color: white;
+	border-radius: 100%;
+	line-height: 120px;
+	text-align: center;
+	position: absolute;
+}
+.aaaa{
+	text-decoration: none;
+}
+.leaf1{
+	top: 110px;
+	left: 0px;
+}
+.leaf2{
+	top: 80px;
+	left: 390px;
+	background-color: #81A68C;
+}
+.leaf3{
+	top: 0px;
+	left: 120px;
+	background-color: #5CC454;
+}
+.leaf4{
+	top: 240px;
+	left: 20px;
+	background-color: #6A9462;
+}
+.leaf5{
+	top: 210px;
+	left: 320px;
+	background-color: #89BF7E;
+}
+.leaf6{
+	top: 20px;
+	left: 260px;
+	background-color: #90C985;
+}
