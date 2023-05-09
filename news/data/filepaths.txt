@@ -1,3 +1,4 @@
+/news/posts/20230427.txt
 /news/posts/2023031202.txt
 /news/posts/2023031201.txt
 /news/posts/20230301.txt
